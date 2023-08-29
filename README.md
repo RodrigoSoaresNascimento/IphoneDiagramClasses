@@ -12,7 +12,7 @@ A modelagem em UML é um processo de representação de sistemas de software usa
 
 **Diagrama de classes:**
 
-```mermaid
+```
 classDiagram
   class iPhone {
     + tocar()

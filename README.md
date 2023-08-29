@@ -24,24 +24,34 @@ classDiagram
     + exibirPagina()
     + adicionarNovaAba()
     + atualizarPagina()
+    + rejeitarChamada()
+    + encerrarLigacao()
+    + avançarMusica()
+    + fecharPagina()
+    + buscarPagina()
   }
 
   interface ReprodutorMusical {
     + tocar()
     + pausar()
     + selecionarMusica()
+    + avançarMusica()
   }
 
   interface AparelhoTelefonico {
     + ligar()
     + atender()
     + iniciarCorrerioVoz()
+    + rejeitarChamada()
+    + encerrarLigacao()
   }
 
   interface NavegadorNaInternet {
     + exibirPagina()
     + adicionarNovaAba()
     + atualizarPagina()
+    + fecharPagina()
+    + buscarPagina()
   }
 
   iPhone ..|> ReprodutorMusical
